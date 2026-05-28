@@ -1,88 +1,75 @@
-<div align="center">
-
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # Darwin
-![Lua Logo](https://img.shields.io/badge/Darwin-0.12.0-blue?style=for-the-badge&logo=lua)
-[![GitHub Release](https://img.shields.io/github/release/OUIsolutions/Darwin.svg?style=for-the-badge)](https://github.com/OUIsolutions/Darwin/releases)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://github.com/OUIsolutions/Darwin/blob/main/LICENSE)
-![Status](https://img.shields.io/badge/Status-Alpha-orange?style=for-the-badge)
-![Platforms](https://img.shields.io/badge/Platforms-Windows%20|%20Linux%20|%20WebAssembly-lightgrey?style=for-the-badge)
 
-</div>
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/Darwin)
 
----
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-## ⚠️ Important Notice
+## Architecture
 
-> **This is alpha software!** Use at your own risk. While we're working hard to make it stable, bugs are expected. Perfect for learning and prototyping! 🧪
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
----
+## Install
 
-### Overview
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-Darwin is a powerful Lua compiler that transforms your Lua scripts into standalone executables. It provides a streamlined interface for compilation, eliminating the complexity of traditional build systems:
-
-1. **Write your Lua code** 
-2. **Compile to executable**
-3. **Deploy anywhere**
-
-This compiler is designed for developers who need to:
-- Create standalone applications from Lua scripts
-- Embed files and resources into executables
-- Mix Lua with native C code seamlessly
-- Deploy applications without dependencies
-
-### Key Features
-
-- **Multi-platform compilation** - Create executables for Windows, Linux, and more
-- **File embedding** - Bundle resources directly into your executable
-- **C/C++ integration** - Mix Lua with native code
-- **Zero dependencies** - Your compiled programs run anywhere
-- **Lua amalgamation** - Single file distribution
-- **SO library generation** - Create shared libraries from Lua code
-
-
-### Linux Installation 
 ```bash
-curl -L https://github.com/OUIsolutions/Darwin/releases/download/0.20.0/darwin_linux_bin.out -o darwin.out && chmod +x darwin.out &&   mv darwin.out /usr/local/bin/darwin 
-```
-### Mac-Os Instalation
-```bash
-curl -L https://github.com/OUIsolutions/Darwin/releases/download/0.20.0/darwin.c -o darwin.c && gcc darwin.c -o darwin.out && sudo mv darwin.out /usr/local/bin/darwin && rm darwin.c 
+git clone https://github.com/Interested-Deving-1896/Darwin.git
+cd Darwin
 ```
 
-### AI/LLM Integration
+## Usage
 
-Want to learn how to use Darwin with AI assistance? Download the [ai_doc.md](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/ai_doc.md) file and paste its contents to your preferred AI assistant (ChatGPT, Claude, Copilot, etc.) for interactive learning and code examples.
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
----
+## Configuration
 
-## Releases
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
+## CI
 
-|  **File**                                                                                                           | **What is**                                |
-|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-|[darwin.c](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/darwin.c) | A Amalgamation Containing all the Library  |
-|[darwin_linux_bin.out](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/darwin_linux_bin.out)   | Ready-to-use Linux binary           |
-|[darwini32.exe](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/darwini32.exe)       | Ready-to-use Windows 32-bit executable                         |
-|[darwin.deb](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/darwin.deb)       | Debian package for easy installation                             |
-|[darwin.rpm](https://github.com/OUIsolutions/Darwin/releases/download/0.12.0/darwin.rpm)       | RPM package for easy installation            |
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
+## Mirror chain
 
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/Darwin`](https://github.com/Interested-Deving-1896/Darwin) and mirrored through:
 
-## [Public API](docs/public_api.md)
-Click here [Public API](docs/public_api.md) to see the full list of public API functions.
+```
+Interested-Deving-1896/Darwin  ──►  OpenOS-Project-OSP/Darwin  ──►  OpenOS-Project-Ecosystem-OOC/Darwin
+```
 
-## Usage Tutorials 
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
 
-| **Tutorial**                                                    | **Description**                                         |
-|-----------------------------------------------------------------|---------------------------------------------------------|
-| [API Usage](docs/api_usage.md)              | Working with Darwin's API                       |
-| [Build Guide](docs/build.md)                           | Building Darwin from source                               |
-| [CLI Usage](docs/cli_usage.md)                   | Command line interface guide                     |
-| [Dependencies](docs/dependencies.md)      | Understanding project dependencies                          |
+## Contributors
 
-## 📄 License
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Origins
 
----
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[MIT](https://github.com/Interested-Deving-1896/Darwin/blob/main/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
